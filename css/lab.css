@@ -1,0 +1,30 @@
+
+@font-face{
+    font-family:"Hasan";
+    src: url("../webfonts/AraHamahSahetAlAssi-Regular-1.ttf");
+
+}
+*{
+    font-family: "Hasan";
+}
+
+.nav{
+    background-color:rgb(252, 109, 221);
+    padding: 20px;
+    margin-top: 200px;
+    background-size:cover ;
+    color: aliceblue;
+    text-align: center
+    
+
+
+    
+}
+
+.nav a{
+    font-size: 13px;
+    text-decoration: none;
+    color: aliceblue;
+ 
+}
+body{direction: ltr;}
