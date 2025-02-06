@@ -9,11 +9,15 @@
 }
 
 .nav{
-    background-color: rgb(60 33 73);
+    background-color:rgb(252, 109, 221);
     padding: 20px;
+    margin-top: 200px;
     background-size:cover ;
     color: aliceblue;
-    text-align: center;
+    text-align: center
+    
+
+
     
 }
 
