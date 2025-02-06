@@ -1,0 +1,86 @@
+
+h1{
+    text-align: center;
+    color: rgb(82, 5, 65);
+    padding: 20px;
+
+}
+
+
+.mm{
+   
+  
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    position: 30px,20px;
+    grid-column-gap:20px;
+    grid-row-gap:20px;
+    transition: all 0.2s ease;
+}
+.my img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    cursor: pointer;
+    transition:0.2s ease ;
+}
+.my img:hover{
+    transform: scale(1.04);
+}
+.my h4{
+    position: 5px;
+    text-align: center;
+}
+.my button{
+    padding: 5px,30px;
+    outline: none;
+    border-color: rgba(104, 87, 121, 0.411);
+    background-color:rgb(250, 254, 255);
+    color: rgb(82, 5, 65);
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 20px;
+    display: block;
+    margin:0 auto;
+   
+}
+.my{
+    background-color:rgb(252, 144, 228);
+    height: 450px;
+    padding-bottom: 5px;
+    box-shadow: 0 5px 5px rgb(0, 0, 0 ,0.2);
+    border:2px solid rgb(0, 0, 0);
+    position: relative;
+    border-radius: 10px; 
+}
+
+
+@media screen and (min-width:1500px){
+    .mm{
+        grid-template-columns: repeat(4,1fr);
+        font-size: 30px;
+        
+    
+        
+        
+    }
+}
+@media screen and (max-width:1499px){
+    .mm{
+        grid-template-columns: repeat(3,1fr);
+        font-size: 25px;
+    }
+}
+@media screen and (max-width:1000px){
+    .mm{
+        grid-template-columns: repeat(2,1fr);
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:768px){
+    .mm{
+        grid-template-columns: repeat(1,1fr);
+        font-size: 20px;
+    }
+}
+    
